@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de EAN</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#">RUSSODEV</a>
+            </div>
+            <a href="https://www.linkedin.com/in/eusouoviktor/" class="btn-fale">Fale Comigo</a>
+            <nav class="menu">
+                <ul>
+                    <li><a href="https://euviktors.github.io/Calculadora-de-precificao-para-ecommerce./">Precificação
+                            Ecom</a></li>
+                    <li><a href="#">Controle Financeiro</a></li>
+                    <li><a href="#">Gerador de EAN</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="gerador">
+            <h2>Gerador de EAN</h2>
+            <button class="generate-btn" onclick="generateBarcodes()">Gerar Códigos de Barras</button>
+            <div id="eanOutput"></div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.0/dist/JsBarcode.all.min.js"></script>
+    <script src="script.js"></script>
+
+    <div class="credit">
+        Desenvolvido por <a href="https://www.linkedin.com/in/eusouoviktor/" target="_blank">@eusouoviktor</a>
+    </div>
+
+</body>
+
+</html>
